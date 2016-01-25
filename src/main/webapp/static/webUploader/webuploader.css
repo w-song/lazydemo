@@ -1,0 +1,88 @@
+.webuploader-container {
+  position: relative;
+}
+
+.webuploader-element-invisible {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.webuploader-pick {
+  min-height: 250px;
+}
+
+.webuploader-pick-hover {
+  cursor: pointer;
+}
+
+.webuploader-pick-disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.webuploader {
+  margin-bottom: 20px;
+  border: 3px dashed #0087F7;
+  background-color: #f2f2f2;
+}
+
+.webuploader-list {
+  padding: 20px;
+  z-index: 21;
+}
+
+.webuploader-description {
+  position: absolute;
+  top: 80px;
+  left: 5%;
+  padding: 20px;
+  font-weight: lighter;
+  color: #999;
+  text-align: center;
+  font-size: 24px;
+}
+
+.webuploader-list-item {
+  position: relative;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #acacac;
+  width: 120px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+  z-index: 32;
+}
+
+.webuploader-list-img {
+  width: 100px;
+  height: 100px;
+}
+
+.webuploader-file-icon {
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  line-height: 0;
+  text-align: center;
+  color: #aaa;
+}
+
+.webuploader-list-img, .webuploader-file-icon {
+  margin-bottom: 15px;
+}
+
+.webuploader-list-info {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  min-width: 100px;
+  opacity: 0.9;
+  color: #777;
+  z-index: 64;
+}

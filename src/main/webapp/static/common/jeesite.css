@@ -1,0 +1,298 @@
+/*!
+ * Copyright &copy; 2012-2013 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ */
+* {
+  outline: none !important;
+}
+
+html,
+body {
+  scrollbar-face-color: #ffffff;
+  scrollbar-highlight-color: #ffffff;
+  scrollbar-darkshadow-color: #ffffff;
+  padding: 0;
+}
+
+body,
+label,
+input,
+button,
+select,
+textarea,
+.uneditable-input,
+.navbar-search .search-query {
+  font-family: Microsoft YaHei, Georgia, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.hide-element {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: -2px 3px;
+  *margin-top: 1px;
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: auto;
+  background-color: #f3f3f3;
+}
+
+.input-prepend input,
+.input-group input,
+.input-prepend select,
+.input-group select,
+.input-prepend .uneditable-input,
+.input-group .uneditable-input {
+  position: static;
+}
+
+legend {
+  margin: 10px 0;
+  *left: -7px;
+  *position: relative;
+  color: #0088CC;
+  *width: 99.5%
+}
+
+.form-control-upload {
+  margin: 9px 0px;
+  padding: 0px;
+}
+
+.collapse {
+  *display: none;
+  _position: static;
+}
+
+.collapse.in {
+  *display: block;
+}
+
+.close {
+  opacity: 0.3;
+}
+
+.close:hover {
+  opacity: 0.8;
+}
+
+.btn-group a.btn, .btn-group button.btn, .btn-group button.btn:hover {
+  position: static;
+}
+
+.btn-group a.btn + a.btn,
+.btn-group button.btn + button.btn {
+  margin-left: -2px;
+}
+
+.list-group li a {
+  margin-top: 5px;
+}
+
+/** wide table style */
+
+.table-wide {
+  overflow-x: auto;
+}
+
+.table-wide .table th,
+.table-wide .table td {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table td i {
+  margin: 0 2px;
+}
+
+.sort-column {
+  color: #0663A2;
+  cursor: pointer;
+}
+
+.supcan {
+  border: 1px #d3d3d3 solid;
+  height: 300px;
+}
+
+/** required icons */
+
+.has-required .glyphicon-asterisk {
+  color: #c7254e;
+  font-size: 11px;
+}
+@media (min-width: 768px) {
+  .not-input .glyphicon-asterisk {
+    right: -20px;
+  }
+}
+@media (max-width: 767px) {
+  .not-input .glyphicon-asterisk {
+    right: 50px;
+  }
+}
+legend+.form-group {
+  margin-top: 8px;
+}
+
+.measure-input {
+  background: url("../images/ruler.gif") repeat-x scroll 0 bottom transparent;
+}
+
+.help-block, .help-inline {
+  padding-left: 15px;
+  color: #aaaaaa;
+}
+
+.alert {
+  margin-bottom: 10px;
+}
+
+.form-inline .form-group {
+  margin-right: 10px;
+}
+
+.form-search .row {
+  margin: 10px;
+}
+
+.pagination {
+  margin: 6px 0px;
+}
+
+.pagination-place {
+  display: inline-block;
+  padding: 15px 0px 0px 10px;
+  vertical-align: top;
+}
+
+.pagination-place a {
+  border: 0;
+}
+
+.pagination-place input {
+  border: 0;
+  color: #999;
+  width: 30px;
+  height: 20px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.modal-backdrop {
+  background-color: #ffffff;
+}
+
+.modal-backdrop, .modal-backdrop.fade.in {
+  opacity: 0.5;
+}
+
+.modal.tree {
+  width: 300px;
+  margin: -250px 0 0 -180px;
+  *margin: -200px 0 0 -150px;
+}
+
+.modal.tree .modal-body {
+  height: 260px;
+  padding: 20px 25px;
+}
+
+.panel-heading a:hover,
+.dropdown a:hover {
+  text-decoration: none;
+  background: none;
+}
+
+.panel-heading .accordion-toggle {
+  font-size: 14px;
+  _padding-top: 10px;
+  _padding-bottom: 8px;
+}
+
+.panel-heading .accordion-toggle i {
+  _margin-top: -1px;
+}
+
+.panel-body {
+  padding: 3px 8px 3px 8px;
+}
+
+.panel-body .list-group {
+  margin-bottom: 4px;
+}
+
+.panel-body .list-group li a {
+  padding: 5px 0px 5px 8px;
+}
+
+.single-menu {
+  position: absolute;
+  top: 1px;
+  right: 20px;
+}
+
+#left, #right, #openClose {
+  float: left;
+}
+
+#openClose {
+  width: 6px;
+  margin: 0 1px;
+  cursor: pointer;
+}
+
+#openClose,
+#openClose.close {
+  background: #efefef url("../images/openclose.png") no-repeat -29px center;
+}
+
+#openClose.close {
+  background-position: 1px center;
+  opacity: 0.5;
+}
